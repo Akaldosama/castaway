@@ -1,0 +1,616 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #191919;
+}
+
+#main5 .container, #main4 .container, #main3 .container, #main2 .container, #main1 .container, nav {
+  padding: 20px 70px;
+}
+
+#main4 .container .parent .child button, #main2 .container .parent .child button, #main2 .container .box button {
+  padding: 12px 25px;
+  color: white;
+  background-color: #118DA8;
+  border-radius: 5px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: white;
+}
+nav .logo {
+  margin-right: auto;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+#main1 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  gap: 50px;
+}
+#main1 .container .parent .child:nth-child(1) {
+  max-width: 550px;
+}
+#main1 .container .parent .child:nth-child(1) img {
+  width: 100%;
+  border-radius: 13px;
+}
+#main1 .container .parent .child:nth-child(2) {
+  max-width: 600px;
+}
+#main1 .container .parent .child:nth-child(2) h1 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 3.2000000477px;
+}
+#main1 .container .parent .child:nth-child(2) .box {
+  margin-top: 30px;
+}
+#main1 .container .parent .child:nth-child(2) .box img {
+  margin: 10px 10px 0px 0px;
+}
+
+#main2 .container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 20px 0px;
+}
+#main2 .container .box h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79px;
+  letter-spacing: 2.8800001144px;
+}
+#main2 .container .parent {
+  margin-bottom: 40px;
+  padding: 30px;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: start;
+  background-color: #000;
+  border-radius: 25px;
+  gap: 40px;
+}
+#main2 .container .parent .child img {
+  max-width: 390px;
+}
+#main2 .container .parent .child mark {
+  background-color: #191919;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 7px;
+}
+#main2 .container .parent .child h4 {
+  margin-top: 50px;
+  color: #118DA8;
+  font-weight: 400;
+}
+#main2 .container .parent .child h3 {
+  margin: 20px 0px;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 2.5599999428px;
+}
+#main2 .container .parent .child p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 33px;
+  opacity: 0.7;
+}
+#main2 .container .parent .child button {
+  margin-top: 50px;
+}
+
+#main3 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#main3 .container .parent .child:nth-child(1) {
+  color: #fff;
+}
+#main3 .container .parent .child:nth-child(1) .box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #118DA8;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+#main3 .container .parent .child:nth-child(1) h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79px;
+  letter-spacing: 2.8800001144px;
+}
+#main3 .container .parent .child:nth-child(1) p {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 33px;
+  opacity: 0.7;
+}
+#main3 .container .parent .child:nth-child(1) h4 {
+  margin-top: 50px;
+  color: #118DA8;
+  font-weight: 400;
+}
+#main3 .container .parent .child:nth-child(2) img {
+  width: 100%;
+  border-radius: 13px;
+}
+
+#main4 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background: #000;
+  padding: 70px 0px;
+  gap: 50px;
+  border-radius: 20px;
+}
+#main4 .container .parent .child {
+  max-width: 400px;
+  text-align: left;
+}
+#main4 .container .parent .child h2 {
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 79px;
+  letter-spacing: 2.8800001144px;
+}
+#main4 .container .parent .child h4 {
+  color: #118DA8;
+  font-weight: 400;
+}
+#main4 .container .parent .child input {
+  padding: 20px 90px;
+  background: #232323;
+  border: none;
+  margin: 5px;
+  text-align: left;
+  border-radius: 5px;
+  outline: none;
+  caret-color: #fff;
+}
+#main4 .container .parent .child button {
+  margin: 5px;
+}
+
+#main5 .container .parent {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#main5 .container .parent .child {
+  max-width: 385px;
+  height: 325px;
+  padding: 36px;
+  border-radius: 20px;
+  background-color: #000;
+  color: white;
+}
+#main5 .container .parent .child h3 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  margin: 30px 0px;
+}
+
+footer {
+  padding: 100px 70px;
+  color: #fff;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+footer .box:nth-child(1) {
+  width: 447px;
+}
+footer .box:nth-child(1) i {
+  margin: 10px;
+  font-size: 20px;
+}
+footer .box:nth-child(1) h2 {
+  font-size: 45px;
+}
+footer .box {
+  width: 180px;
+}
+footer .box ul {
+  list-style: none;
+  line-height: 2em;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  #main1 .container .parent .child:nth-child(2) h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  #main2 .container .box h2 {
+    font-size: 50px;
+  }
+  #main2 .container .parent .child h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #main2 .container .parent .child p {
+    font-size: 18px;
+  }
+  #main2 .container .parent .child h4 {
+    margin-top: 30px;
+  }
+  #main2 .container .parent .child button {
+    margin-top: 30px;
+  }
+  #main3 .container .parent .child:nth-child(1) .box {
+    width: 90px;
+    height: 90px;
+  }
+  #main3 .container .parent .child:nth-child(1) h2 {
+    font-size: 40px;
+  }
+  #main3 .container .parent .child:nth-child(1) p {
+    margin-top: 10px;
+  }
+  #main4 .container .parent .child h2 {
+    font-size: 55px;
+  }
+  footer .box:nth-child(1) {
+    width: 230px;
+  }
+  footer .box {
+    width: 185px;
+  }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+  #main1 .container .parent .child:nth-child(2) h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #main1 .container .parent .child:nth-child(2) img {
+    width: 25px;
+  }
+  #main2 .container .box h2 {
+    font-size: 40px;
+  }
+  #main2 .container .parent .child h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
+  #main2 .container .parent .child p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #main2 .container .parent .child h4 {
+    margin-top: 15px;
+  }
+  #main2 .container .parent .child button {
+    margin-top: 30px;
+  }
+  #main2 .container .parent .child img {
+    width: 300px;
+  }
+  #main3 .container .parent .child:nth-child(1) .box {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+  #main3 .container .parent .child:nth-child(1) .box img {
+    width: 100%;
+  }
+  #main3 .container .parent .child:nth-child(1) h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  #main3 .container .parent .child:nth-child(1) h4 {
+    margin-top: 10px;
+  }
+  #main3 .container .parent .child:nth-child(1) p {
+    margin-top: 0px;
+  }
+  #main4 .container .parent {
+    padding: 22px;
+  }
+  #main4 .container .parent .child h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #main4 .container .parent .child input {
+    padding: 15px 50px;
+  }
+  #main5 .container .parent .child {
+    width: 300px;
+    height: 300px;
+  }
+  #main5 .container .parent .child h3 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  footer {
+    padding: 30px;
+  }
+  footer .box:nth-child(1) {
+    width: 220px;
+    display: block;
+    text-align: center;
+  }
+  footer .box:nth-child(1) h2 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  footer .box {
+    display: none;
+  }
+}
+@media (min-width: 448px) and (max-width: 768px) {
+  nav {
+    padding: 20px 30px;
+  }
+  #main1 .container {
+    padding: 30px;
+  }
+  #main1 .container .parent {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  #main1 .container .parent .child:nth-child(2) h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #main1 .container .parent .child:nth-child(2) img {
+    width: 25px;
+  }
+  #main2 .container {
+    padding: 30px;
+  }
+  #main2 .container .box h2 {
+    font-size: 40px;
+  }
+  #main2 .container .parent {
+    width: 100%;
+    display: block;
+  }
+  #main2 .container .parent .child h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
+  #main2 .container .parent .child p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #main2 .container .parent .child h4 {
+    margin-top: 15px;
+  }
+  #main2 .container .parent .child button {
+    margin-top: 30px;
+  }
+  #main2 .container .parent .child img {
+    width: 100%;
+  }
+  #main3 .container {
+    padding: 30px;
+  }
+  #main3 .container .parent {
+    display: block;
+  }
+  #main3 .container .parent .child:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  #main3 .container .parent .child:nth-child(1) .box {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+  #main3 .container .parent .child:nth-child(1) .box img {
+    width: 100%;
+  }
+  #main3 .container .parent .child:nth-child(1) h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  #main3 .container .parent .child:nth-child(1) h4 {
+    margin-top: 10px;
+  }
+  #main3 .container .parent .child:nth-child(1) p {
+    margin-top: 0px;
+  }
+  #main4 .container {
+    padding: 30px;
+  }
+  #main4 .container .parent {
+    display: grid;
+    place-items: center;
+    padding: 22px;
+  }
+  #main4 .container .parent .child {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  #main4 .container .parent .child h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #main4 .container .parent .child input {
+    padding: 15px 50px;
+  }
+  #main5 .container {
+    padding: 30px;
+  }
+  #main5 .container .parent .child {
+    width: 300px;
+    height: 300px;
+  }
+  #main5 .container .parent .child h3 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  footer {
+    padding: 30px;
+  }
+  footer .box:nth-child(1) {
+    width: 220px;
+    display: block;
+    text-align: center;
+  }
+  footer .box:nth-child(1) h2 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  footer .box {
+    display: none;
+  }
+}
+@media (max-width: 447px) {
+  nav {
+    padding: 20px 30px;
+  }
+  #main1 .container {
+    padding: 30px;
+  }
+  #main1 .container .parent {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  #main1 .container .parent .child:nth-child(2) h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #main1 .container .parent .child:nth-child(2) img {
+    width: 25px;
+  }
+  #main2 .container {
+    padding: 30px;
+  }
+  #main2 .container .box h2 {
+    font-size: 40px;
+  }
+  #main2 .container .parent {
+    width: 100%;
+    display: block;
+  }
+  #main2 .container .parent .child h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
+  #main2 .container .parent .child p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #main2 .container .parent .child h4 {
+    margin-top: 15px;
+  }
+  #main2 .container .parent .child button {
+    margin-top: 30px;
+  }
+  #main2 .container .parent .child img {
+    width: 100%;
+  }
+  #main3 .container {
+    padding: 30px;
+  }
+  #main3 .container .parent {
+    display: block;
+  }
+  #main3 .container .parent .child:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  #main3 .container .parent .child:nth-child(1) .box {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+  #main3 .container .parent .child:nth-child(1) .box img {
+    width: 100%;
+  }
+  #main3 .container .parent .child:nth-child(1) h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  #main3 .container .parent .child:nth-child(1) h4 {
+    margin-top: 10px;
+  }
+  #main3 .container .parent .child:nth-child(1) p {
+    margin-top: 0px;
+  }
+  #main4 .container {
+    padding: 30px;
+  }
+  #main4 .container .parent {
+    display: grid;
+    place-items: center;
+    padding: 22px;
+  }
+  #main4 .container .parent .child {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  #main4 .container .parent .child h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #main4 .container .parent .child input {
+    padding: 15px 35px;
+  }
+  #main5 .container {
+    padding: 30px;
+  }
+  #main5 .container .parent .child {
+    width: 300px;
+    height: 250px;
+  }
+  #main5 .container .parent .child h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  footer {
+    padding: 30px;
+  }
+  footer .box:nth-child(1) {
+    width: 220px;
+    display: block;
+    text-align: center;
+  }
+  footer .box:nth-child(1) h2 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  footer .box {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
